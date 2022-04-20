@@ -1,0 +1,12 @@
+.line {
+	background-color: #896b73;
+	height: 19.38px;
+	width: 100%;
+	position: absolute;
+
+	&_about {
+		z-index: 10;
+		top: -103px;
+		left: 0;
+	}
+}

@@ -1,0 +1,36 @@
+.about {
+	position: relative;
+	margin-top: 117px;
+	min-height: 600px;
+	//padding: 0 135px 0 120px;
+	&__photo {
+		display: block;
+
+		img {
+			object-fit: cover;
+		}
+	}
+	&__wrapper {
+		display: flex;
+		justify-content: space-around;
+	}
+	&__items {
+		margin-top: 43px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__main {
+		color: #5b4d51;
+		font-weight: 300;
+		font-size: 22px;
+		line-height: 30px;
+	}
+	&__text {
+		margin-top: 26px;
+	}
+	&__contacts {
+	}
+	&__skills {
+		margin-right: 130px;
+	}
+}

@@ -1,0 +1,42 @@
+.promo {
+	min-height: 547px;
+	margin-top: 50px;
+	background: url('../img/bg.jpg') center center / cover no-repeat;
+	&__header {
+		padding-top: 40px;
+		display: flex;
+	}
+	&__logo {
+		display: block;
+		width: 70px;
+		height: 70px;
+		img {
+			object-fit: cover;
+		}
+	}
+	&__avatar {
+		display: block;
+
+		img {
+			object-fit: cover;
+		}
+	}
+
+	&__main {
+		min-width: 420px;
+		margin: 0 auto;
+		text-align: center;
+		line-height: 59px;
+	}
+	&__title {
+		line-height: 29px;
+		font-size: 50px;
+		color: #e5dbdc;
+		margin-bottom: 0;
+	}
+	&__subtitle {
+		font-size: 25px;
+		color: #c2b1b3;
+		margin-bottom: 0;
+	}
+}

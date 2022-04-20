@@ -1,0 +1,15 @@
+.square {
+	width: 155.5px;
+	height: 151.3px;
+	position: absolute;
+	&_ez-about {
+		background-color: #e5dbdc;
+		right: 160px;
+		top: -185px;
+	}
+	&_midle-about {
+		background-color: #896b73;
+		right: 89px;
+		top: -140px;
+	}
+}
