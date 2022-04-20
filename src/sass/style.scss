@@ -14,8 +14,10 @@
 	margin: 0 auto;
 }
 
+@import 'blocks/dark';
 @import 'blocks/promo';
 @import 'blocks/about';
+@import 'blocks/message';
 @import 'blocks/subtitle';
 @import 'blocks/square';
 @import 'blocks/line';

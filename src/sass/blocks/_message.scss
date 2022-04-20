@@ -1,0 +1,52 @@
+.message {
+	width: 1200px;
+	margin: 0 auto;
+	min-height: 550px;
+	background-color: #e5dbdc;
+	margin-bottom: 60px;
+	border-radius: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+	&__title {
+		padding-top: 40px;
+		text-align: center;
+		font-size: 30px;
+		color: #5b4d51;
+	}
+	&__wrapper {
+		display: flex;
+		justify-content: space-around;
+	}
+	input,
+	textarea {
+		display: block;
+		margin-top: 25px;
+		padding: 0 15px;
+		font-size: 22px;
+		width: 350px;
+		height: 50px;
+		border-radius: 19px;
+		&:focus {
+			border: solid #5b4d51;
+		}
+	}
+	textarea {
+		width: 600px;
+		height: 200px;
+		padding: 15px;
+		resize: none;
+	}
+	&__button {
+		display: block;
+		margin: 120px auto;
+		width: 150px;
+		height: 40px;
+		color: #e2d8db;
+		background-color: #5b4d51;
+		text-align: center;
+		border-radius: 15px;
+		&:active {
+			background-color: #896b73;
+		}
+	}
+}
