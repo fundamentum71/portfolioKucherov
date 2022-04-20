@@ -3,7 +3,7 @@
 	margin: 0 auto;
 	min-height: 550px;
 	background-color: #e5dbdc;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 	border-radius: 25px;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -47,6 +47,20 @@
 		border-radius: 15px;
 		&:active {
 			background-color: #896b73;
+		}
+	}
+	&__column1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+
+		img {
+			width: 150px;
+			height: 150px;
+			position: absolute;
+			top: 200px;
+			fill: #896b73;
 		}
 	}
 }
