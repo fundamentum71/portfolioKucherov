@@ -16,24 +16,38 @@
 		width: 390px;
 		height: 390px;
 		background-color: rgba(91, 77, 81, 0.8);
-		top: -40px;
-		left: -40px;
+		top: -30px;
+		left: -30px;
 		z-index: -2;
-		//&:hover {
-		//	top: 0px;
-		//	left: 0px;
-		//}
 	}
 	&_cart-top {
 		width: 390px;
 		height: 390px;
 		background-color: #896b73;
-		top: -20px;
-		left: -20px;
+		top: -15px;
+		left: -15px;
 		z-index: -1;
-		&:hover {
-			top: 20px;
-			left: 20px;
-		}
+	}
+	&_midle-works {
+		background-color: #896b73;
+		right: 89px;
+		top: -140px;
+	}
+	&_hard-works {
+		background-color: #5b4d51;
+		right: 160px;
+		top: -70px;
+		z-index: 11;
+	}
+	&_midle-footer {
+		background-color: #896b73;
+		left: 105px;
+		top: -190px;
+	}
+	&_hard-footer {
+		background-color: #5b4d51;
+		left: 65px;
+		top: -130px;
+		z-index: 11;
 	}
 }

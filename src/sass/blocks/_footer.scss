@@ -1,0 +1,45 @@
+.footer {
+	text-align: center;
+	min-height: 300px;
+	background-color: #7d6f74;
+	position: relative;
+	&__contacts {
+		padding-top: 50px;
+		color: #e2d8db;
+		font-size: 30px;
+	}
+	&__phone {
+		padding-top: 23px;
+		font-size: 18px;
+		color: #e2d8db;
+	}
+	&__email {
+		padding-top: 20px;
+		font-size: 18px;
+		color: #e2d8db;
+	}
+	&__social {
+		padding-top: 25px;
+		display: flex;
+		justify-content: center;
+		a {
+			display: block;
+			width: 32px;
+			height: 32px;
+			margin-right: 32px;
+			&:last-child {
+				margin-right: 0;
+			}
+			img {
+				object-fit: cover;
+			}
+		}
+	}
+	&__kaluga {
+		padding-top: 40px;
+		//text-align: right;
+		color: #ffffff;
+		font-size: 13px;
+		font-weight: 300;
+	}
+}

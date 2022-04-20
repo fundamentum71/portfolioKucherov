@@ -3,10 +3,20 @@
 	height: 19.38px;
 	width: 100%;
 	position: absolute;
+	z-index: 10;
 
 	&_about {
-		z-index: 10;
 		top: -103px;
 		left: 0;
+	}
+
+	&_works {
+		top: -100px;
+		left: 0;
+	}
+
+	&_footer {
+		background-color: #5b4d51;
+		top: -19px;
 	}
 }

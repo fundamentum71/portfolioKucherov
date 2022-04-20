@@ -1,8 +1,10 @@
 .works {
 	min-height: 710px;
+	position: relative;
+	margin-bottom: 195px;
 
 	&__items {
-		margin-top: 77px;
+		margin-top: 100px;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
@@ -14,9 +16,9 @@
 		position: relative;
 
 		img {
-			transition: all 2s;
+			transition: all 0.6s;
 			&:hover {
-				transform: scale(1.2);
+				transform: scale(1.1);
 			}
 		}
 	}
