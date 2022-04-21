@@ -2,7 +2,7 @@
 	width: 1200px;
 	margin: 0 auto;
 	min-height: 550px;
-	background-color: #e5dbdc;
+	background-color: $ez-main-color;
 	margin-bottom: 50px;
 	border-radius: 25px;
 	padding-left: 40px;
@@ -11,7 +11,7 @@
 		padding-top: 40px;
 		text-align: center;
 		font-size: 30px;
-		color: #5b4d51;
+		color: $hard-main-color;
 	}
 	&__wrapper {
 		display: flex;
@@ -27,7 +27,7 @@
 		height: 50px;
 		border-radius: 19px;
 		&:focus {
-			border: solid #5b4d51;
+			border: solid $hard-main-color;
 		}
 	}
 	textarea {
@@ -42,11 +42,11 @@
 		width: 150px;
 		height: 40px;
 		color: #e2d8db;
-		background-color: #5b4d51;
+		background-color: $hard-main-color;
 		text-align: center;
 		border-radius: 15px;
 		&:active {
-			background-color: #896b73;
+			background-color: $midle-main-color;
 		}
 	}
 	&__column1 {
@@ -60,7 +60,7 @@
 			height: 150px;
 			position: absolute;
 			top: 210px;
-			fill: #896b73;
+			fill: $midle-main-color;
 		}
 	}
 	.error {

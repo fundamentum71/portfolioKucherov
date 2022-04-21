@@ -1,5 +1,5 @@
 .line {
-	background-color: #896b73;
+	background-color: $midle-main-color;
 	height: 19.38px;
 	width: 100%;
 	position: absolute;
@@ -16,7 +16,7 @@
 	}
 
 	&_footer {
-		background-color: #5b4d51;
+		background-color: $hard-main-color;
 		top: -19px;
 	}
 }

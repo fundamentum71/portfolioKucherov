@@ -3,12 +3,12 @@
 	height: 151.3px;
 	position: absolute;
 	&_ez-about {
-		background-color: #e5dbdc;
+		background-color: $ez-main-color;
 		right: 160px;
 		top: -185px;
 	}
 	&_midle-about {
-		background-color: #896b73;
+		background-color: $midle-main-color;
 		right: 89px;
 		top: -140px;
 	}
@@ -23,29 +23,29 @@
 	&_cart-top {
 		width: 390px;
 		height: 390px;
-		background-color: #896b73;
+		background-color: $midle-main-color;
 		top: -7px;
 		left: -7px;
 		z-index: -1;
 	}
 	&_midle-works {
-		background-color: #896b73;
+		background-color: $midle-main-color;
 		right: 89px;
 		top: -140px;
 	}
 	&_hard-works {
-		background-color: #5b4d51;
+		background-color: $hard-main-color;
 		right: 160px;
 		top: -70px;
 		z-index: 11;
 	}
 	&_midle-footer {
-		background-color: #896b73;
+		background-color: $midle-main-color;
 		left: 105px;
 		top: -190px;
 	}
 	&_hard-footer {
-		background-color: #5b4d51;
+		background-color: $hard-main-color;
 		left: 65px;
 		top: -130px;
 		z-index: 11;
