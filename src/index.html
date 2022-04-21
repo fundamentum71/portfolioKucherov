@@ -179,18 +179,16 @@
 		<section class="message">
 			<div class="message__container">
 				<div class="message__title">Вы можете отправить сообщение мне на почту:</div>
-				<form id="" class="" action="#">
+				<form id="message-form" class="" action="#">
 					<div class="message__wrapper">
 						<div class="message__column1">
-							<input name="name" required placeholder="Ваше имя" type="text" />
-							<input name="email" required placeholder="Ваш e-mail" type="email" />
-							
+							<input name="name" placeholder="Ваше имя" type="text" />
+							<input name="email"placeholder="Ваш e-mail" type="email" />
 								<img src="./img/message.svg" alt="message">
-							
 						</div>
 							
 						<div class="message__column2">
-							<textarea  name="comment"  required placeholder="Ваше сообщение" type="text" 
+							<textarea  name="comment"  placeholder="Ваше сообщение" type="text" 
 							></textarea>
 						</div>
 					</div>
@@ -279,6 +277,8 @@
 				</div>
 			</div>
 		</footer>
-		<script src="js/script.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="./js/jquery.validate.min.js"></script>
+		<script src="./js/script.js"></script>
 	</body>
 </html>
