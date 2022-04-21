@@ -33,4 +33,35 @@ $(document).ready(function () {
 	}
 
 	validationForms('#message-form');
+
+	//!cart
+
+	function toggleActive(item) {
+		$(item).each(function (i) {
+			$(this).on('mouseover', function (e) {
+				e.preventDefault();
+				$('.square__cart-bottom')
+					.eq(i)
+					.toggleClass('square__cart-bottom_active');
+				$('.square__cart-top').eq(i).toggleClass('square__cart-top_active');
+			});
+		});
+	}
+	toggleActive('.works__item');
+
+	function toggleBack(item) {
+		$(item).each(function (i) {
+			$(this).on('mouseout', function (e) {
+				e.preventDefault();
+				$('.square__cart-bottom_active')
+					.removeClass('square__cart-bottom_active')
+					.addClass('square__cart-bottom');
+
+				$('.square__cart-top_active')
+					.removeClass('square__cart-top_active')
+					.addClass('square__cart-top');
+			});
+		});
+	}
+	toggleBack('.works__item');
 });
