@@ -1,8 +1,10 @@
 .about {
 	position: relative;
+	display: block;
+	padding-top: 30px;
+	background: $about-bg-color;
 	margin-top: 117px;
 	min-height: 650px;
-	//padding: 0 135px 0 120px;
 	&__photo {
 		display: block;
 

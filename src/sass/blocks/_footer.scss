@@ -5,18 +5,18 @@
 	position: relative;
 	&__contacts {
 		padding-top: 50px;
-		color: #e2d8db;
+		color: $text-footer-color;
 		font-size: 30px;
 	}
 	&__phone {
 		padding-top: 23px;
 		font-size: 18px;
-		color: #e2d8db;
+		color: $text-footer-color;
 	}
 	&__email {
 		padding-top: 20px;
 		font-size: 18px;
-		color: #e2d8db;
+		color: $text-footer-color;
 	}
 	&__social {
 		padding-top: 25px;
