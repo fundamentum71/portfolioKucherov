@@ -2,7 +2,9 @@
 
 const hamburger = document.querySelector('.hamburger'),
 	menu = document.querySelector('.menu'),
-	closeElem = document.querySelector('.menu__close');
+	closeElem = document.querySelector('.menu__close'),
+	closeOverlay = document.querySelector('.menu__overlay'),
+	closeLink = document.querySelectorAll('.menu__link');
 
 hamburger.addEventListener('click', () => {
 	menu.classList.add('active');
@@ -10,6 +12,15 @@ hamburger.addEventListener('click', () => {
 
 closeElem.addEventListener('click', () => {
 	menu.classList.remove('active');
+});
+closeOverlay.addEventListener('click', () => {
+	menu.classList.remove('active');
+});
+
+closeLink.forEach((item) => {
+	item.addEventListener('click', () => {
+		menu.classList.remove('active');
+	});
 });
 
 $(document).ready(function () {

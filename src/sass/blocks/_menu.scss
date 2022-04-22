@@ -10,6 +10,9 @@
 	justify-content: space-between;
 	align-items: flex-end;
 	cursor: pointer;
+	&:active {
+		transform: scale(1.1);
+	}
 
 	span {
 		display: block;
@@ -44,6 +47,9 @@
 		top: 25px;
 		right: 25px;
 		cursor: pointer;
+		&:active {
+			transform: scale(1.1);
+		}
 	}
 	&__social {
 		position: absolute;
