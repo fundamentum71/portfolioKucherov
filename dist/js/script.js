@@ -1,4 +1,19 @@
+//!menu
+
+const hamburger = document.querySelector('.hamburger'),
+	menu = document.querySelector('.menu'),
+	closeElem = document.querySelector('.menu__close');
+
+hamburger.addEventListener('click', () => {
+	menu.classList.add('active');
+});
+
+closeElem.addEventListener('click', () => {
+	menu.classList.remove('active');
+});
+
 $(document).ready(function () {
+	//!validation
 	function validationForms(form) {
 		$(form).validate({
 			rules: {
@@ -18,7 +33,7 @@ $(document).ready(function () {
 			messages: {
 				name: {
 					required: 'Пожалуйста, введите свое имя',
-					minlength: jQuery.validator.format('введите минимум {0} символа!'),
+					minlength: jQuery.validator.format('Введите минимум {0} символа!'),
 				},
 				email: {
 					required: 'Пожалуйста, введите свою почту',
@@ -26,7 +41,7 @@ $(document).ready(function () {
 				},
 				comment: {
 					required: 'Пожалуйста, введите текст сообщения',
-					minlength: jQuery.validator.format('введите минимум {0} символов!'),
+					minlength: jQuery.validator.format('Введите минимум {0} символов!'),
 				},
 			},
 		});
