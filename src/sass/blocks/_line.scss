@@ -1,5 +1,5 @@
 .line {
-	background-color: $midle-main-color;
+	background-color: var(--midle-main-color);
 	height: 19.38px;
 	width: 100%;
 	position: absolute;
@@ -16,7 +16,7 @@
 	}
 
 	&_footer {
-		background-color: $hard-main-color;
+		background-color: var(--hard-main-color);
 		top: -19px;
 	}
 }

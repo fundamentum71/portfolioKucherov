@@ -4,7 +4,7 @@
 	position: relative;
 	padding-top: 30px;
 	margin-bottom: 195px;
-	background: $works-bg-color;
+	background: var(--works-bg-color);
 
 	&__items {
 		margin-top: 100px;

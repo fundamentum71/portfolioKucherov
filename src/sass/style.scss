@@ -1,6 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
 @import '_nullstyle';
-@import 'base/variables';
+//@import 'base/variables';
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 * {
@@ -9,14 +9,27 @@
 	padding: 0;
 }
 
-body {
-	//background: $body-bg-color;
-}
-
 .container {
 	position: relative;
 	max-width: 1350px;
 	margin: 0 auto;
+}
+
+:root {
+	--ez-main-color: #e5dbdc;
+	--midle-main-color: #896b73;
+	--hard-main-color: #5b4d51;
+	--text-footer-color: #e2d8db;
+	--subtitle-promo-color: #c2b1b3;
+	--square-bottom-cart-color: rgba(91, 77, 81, 0.8);
+	--about-bg-color: #ffffff;
+	--works-bg-color: #ffffff;
+	--body-bg-color: #ffffff;
+}
+
+:root[data-theme='dark'] {
+	--midle-main-color: #5b4d51;
+	--about-bg-color: #896b73;
 }
 
 @import 'blocks/dark';

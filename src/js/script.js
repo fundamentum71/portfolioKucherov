@@ -91,3 +91,14 @@ $(document).ready(function () {
 	}
 	toggleBack('.works__item');
 });
+
+//!theme-dark
+function theme() {
+	const toggleTheme = document.querySelector('.dark-theme'),
+		bodyTheme = document.querySelector('body');
+
+	toggleTheme.addEventListener('click', () => {
+		document.documentElement.setAttribute('data-theme', 'dark');
+	});
+}
+theme();

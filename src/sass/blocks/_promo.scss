@@ -36,12 +36,12 @@
 	&__title {
 		line-height: 29px;
 		font-size: 50px;
-		color: $ez-main-color;
+		color: var(--ez-main-color);
 		margin-bottom: 0;
 	}
 	&__subtitle {
 		font-size: 25px;
-		color: $subtitle-promo-color;
+		color: var(--subtitle-promo-color);
 		margin-bottom: 0;
 	}
 }

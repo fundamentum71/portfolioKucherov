@@ -2,7 +2,7 @@
 	position: relative;
 	display: block;
 	padding-top: 30px;
-	background: $about-bg-color;
+	background: var(--about-bg-color);
 	margin-top: 117px;
 	min-height: 650px;
 	&__photo {
@@ -22,7 +22,7 @@
 		justify-content: space-between;
 	}
 	&__main {
-		color: $hard-main-color;
+		color: var(--hard-main-color);
 		font-weight: 300;
 		font-size: 22px;
 		line-height: 30px;
