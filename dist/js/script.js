@@ -90,6 +90,20 @@ $(document).ready(function () {
 		});
 	}
 	toggleBack('.works__item');
+
+	//!pageUp
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 800) {
+			$('.pageup').fadeIn();
+		} else {
+			$('.pageup').fadeOut();
+		}
+	});
+	$("a[href^='#promo']").click(function () {
+		const _href = $(this).attr('href');
+		$('html, body').animate({ scrollTop: $(_href).offset().top + 'px' });
+		return false;
+	});
 });
 
 //!theme-dark

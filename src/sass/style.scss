@@ -59,7 +59,7 @@ body {
 :root[data-theme='dark'] {
 	--midle-main-color: #e5dbdc;
 	--about-bg-color: #5b4d51;
-	//--body-bg-color: rgb(182, 155, 155);
+	//--body-bg-color: #5b4d51;
 	--works-bg-color: #e2d8db;
 	--hard-main-color: #e2d8db;
 	--ez-main-color: #5b4d51;
@@ -94,3 +94,4 @@ body {
 @import 'blocks/line';
 @import 'blocks/works';
 @import 'blocks/footer';
+@import 'blocks/pageup';
