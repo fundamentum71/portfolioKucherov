@@ -14,6 +14,9 @@
 	max-width: 1350px;
 	margin: 0 auto;
 }
+body {
+	background-color: var(--body-bg-color);
+}
 
 :root {
 	--ez-main-color: #e5dbdc;
@@ -28,8 +31,12 @@
 }
 
 :root[data-theme='dark'] {
-	--midle-main-color: #5b4d51;
-	--about-bg-color: #896b73;
+	--midle-main-color: #e5dbdc;
+	--about-bg-color: #5b4d51;
+	--body-bg-color: #e2d8db;
+	--works-bg-color: #e2d8db;
+	--hard-main-color: #e2d8db;
+	--ez-main-color: #5b4d51;
 }
 
 @import 'blocks/dark';
