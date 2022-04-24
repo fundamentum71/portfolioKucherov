@@ -1,22 +1,23 @@
 .line {
-	background-color: var(--midle-main-color);
+	background-color: var(--line-color);
 	height: 19.38px;
 	width: 100%;
 	position: absolute;
 	z-index: 1;
 
 	&_about {
-		top: -103px;
+		top: -29px;
 		left: 0;
 	}
 
 	&_works {
-		top: -100px;
+		top: 15px;
 		left: 0;
+		background-color: var(--works-line-color);
 	}
 
 	&_footer {
-		background-color: var(--hard-main-color);
+		background-color: var(--footer-line-color);
 		top: -19px;
 	}
 }

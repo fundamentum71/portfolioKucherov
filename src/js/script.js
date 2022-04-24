@@ -94,11 +94,20 @@ $(document).ready(function () {
 
 //!theme-dark
 function theme() {
-	const toggleTheme = document.querySelector('.dark-theme'),
-		bodyTheme = document.querySelector('body');
+	const toggleTheme = document.querySelector('.dark-theme');
+	let el = document.documentElement;
 
 	toggleTheme.addEventListener('click', () => {
-		document.documentElement.setAttribute('data-theme', 'dark');
+		if (el.hasAttribute('data-theme')) {
+			el.removeAttribute('data-theme');
+			localStorage.removeItem('theme');
+		} else {
+			el.setAttribute('data-theme', 'dark');
+			localStorage.setItem('theme', 'dark');
+		}
 	});
+	if (localStorage.getItem('theme') !== null) {
+		el.setAttribute('data-theme', 'dark');
+	}
 }
 theme();

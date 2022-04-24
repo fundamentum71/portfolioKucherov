@@ -23,20 +23,65 @@ body {
 	--midle-main-color: #896b73;
 	--hard-main-color: #5b4d51;
 	--text-footer-color: #e2d8db;
+	--title-promo-color: #e5dbdc;
 	--subtitle-promo-color: #c2b1b3;
 	--square-bottom-cart-color: rgba(91, 77, 81, 0.8);
+	--square-top-cart-color: #896b73;
 	--about-bg-color: #ffffff;
 	--works-bg-color: #ffffff;
 	--body-bg-color: #ffffff;
+	--message-bg-color: #ffffff;
+	--subtitle-color: #5b4d51;
+	--form-bg-color: #e5dbdc;
+	--form-focus-color: #5b4d51;
+	--form-button-bg-color: #896b73;
+	--form-button-active-bg-color: #5b4d51;
+	--form-button-text-color: #e5dbdc;
+	--line-color: #896b73;
+	--works-line-color: #896b73;
+	--footer-line-color: #5b4d51;
+	--square-about-top: #e5dbdc;
+	--square-about-bottom: #896b73;
+	--square-works-top: #896b73;
+	--square-works-bottom: #5b4d51;
+	--square-footer-top: #896b73;
+	--square-footer-bottom: #5b4d51;
+	--menu-overlay-color: #e5dbdc;
+	--hamburger-menu-bg-color: #e5dbdc;
+	--hamberger-menu-text-color: #5b4d51;
+	--hamberger-menu-text-hover-color: #896b73;
+	--hamberger-menu-circle-bg-color: #e5dbdc;
+	--hamberger-menu-circle-border-color: #896b73;
+	--hamberger-menu-circle-bg-hover-color: #5b4d51;
+	//--hamberger-menu-circle-border-hover-color: ;
 }
 
 :root[data-theme='dark'] {
 	--midle-main-color: #e5dbdc;
 	--about-bg-color: #5b4d51;
-	--body-bg-color: #e2d8db;
+	//--body-bg-color: rgb(182, 155, 155);
 	--works-bg-color: #e2d8db;
 	--hard-main-color: #e2d8db;
 	--ez-main-color: #5b4d51;
+	//--square-bottom-cart-color: #e5dbdc;
+	//--line-color: #e5dbdc;
+	--works-line-color: #896b73;
+	--footer-line-color: #5b4d51;
+	//--form-bg-color: #896b73;
+	--message-bg-color: #5b4d51;
+	//--square-about-top: #896b73;
+	//--square-about-bottom: #e5dbdc;
+	--square-works-top: #896b73;
+	--square-works-bottom: #5b4d51;
+	--square-footer-top: #896b73;
+	--square-footer-bottom: #5b4d51;
+
+	--hamburger-menu-bg-color: #5b4d51;
+	--hamberger-menu-text-color: #e5dbdc;
+	--hamberger-menu-text-hover-color: #e5dbdc;
+	--hamberger-menu-circle-bg-color: #5b4d51;
+	--hamberger-menu-circle-border-color: #e5dbdc;
+	--hamberger-menu-circle-bg-hover-color: #e5dbdc;
 }
 
 @import 'blocks/dark';

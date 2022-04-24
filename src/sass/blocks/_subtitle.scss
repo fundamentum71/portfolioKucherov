@@ -3,5 +3,12 @@
 	color: var(--hard-main-color);
 	&_works {
 		text-align: center;
+		color: var(--subtitle-color);
+	}
+	&_message {
+		padding-top: 40px;
+		text-align: center;
+		font-size: 30px;
+		color: var(--subtitle-color);
 	}
 }
