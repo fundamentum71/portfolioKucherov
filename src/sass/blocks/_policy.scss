@@ -1,0 +1,134 @@
+//.policy {
+//	display: flex;
+//	border: none;
+//	padding-top: 25px;
+//	margin-bottom: 0;
+//	padding-right: 100px;
+//	align-items: center;
+//	justify-content: right;
+//	position: relative;
+//	&__wrapper {
+//		width: 450px;
+//		display: flex;
+//		align-items: center;
+//	}
+//	input {
+//		margin-top: 0;
+//		padding: 0;
+//		width: 20px;
+//		height: 20px;
+//		margin-right: 13px;
+//		&:focus {
+//			border: none;
+//		}
+//	}
+
+//	div {
+//		font-size: 17px;
+//		color: #5b4d51;
+//		a {
+//			color: #896b73;
+//		}
+//	}
+
+//	&__hidden-checkbox {
+//		position: absolute;
+//		-webkit-appearance: none;
+//	}
+//}
+
+//.policy__wrapper .policy__checkbox {
+//	position: relative;
+//	border: solid 2px #896b73;
+//	background-color: #896b73;
+//	border-radius: 100%;
+//	width: 24px;
+//	height: 24px;
+//	margin-right: 10px;
+//}
+
+//.policy__wrapper .policy__checkmark {
+//	position: absolute;
+//	top: 50%;
+//	left: 50%;
+//	transform: translate(-50%, -50%);
+//	width: 50%;
+//	opacity: 0;
+//}
+
+//.policy__wrapper input:checked + .policy__checkbox .policy__checkmark {
+//	opacity: 100%;
+//}
+
+//.policy__hidden-checkbox:checked + .policy__checkbox .policy__checkmark {
+//	opacity: 100%;
+//}
+
+#policy-error {
+	position: absolute;
+	top: 60px;
+	color: black;
+}
+
+.check__input.error {
+	border: none;
+}
+.policy {
+	color: #5b4d51;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	padding: 25px 70px 0 0;
+	font-size: 17px;
+	a {
+		color: #896b73;
+	}
+	&:hover {
+		a {
+			text-decoration: underline;
+		}
+	}
+	input {
+		margin: 0;
+		padding: 0;
+		width: 20px;
+		height: 20px;
+		margin-right: 13px;
+		&:focus {
+			border: none;
+		}
+	}
+}
+.check {
+	display: flex;
+	align-items: center;
+}
+.check__input {
+	-webkit-appearance: none;
+	position: absolute;
+}
+
+.check__box {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	border: solid 2px #5b4d51;
+	border-radius: 100%;
+	margin-right: 10px;
+	background-color: #e5dbdc;
+}
+.checkmark {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	opacity: 0;
+}
+
+#box:checked + .check {
+	.checkmark {
+		opacity: 1;
+	}
+}

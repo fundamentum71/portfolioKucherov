@@ -40,6 +40,9 @@ $(document).ready(function () {
 					required: true,
 					minlength: 20,
 				},
+				policy: {
+					required: true,
+				},
 			},
 			messages: {
 				name: {
@@ -53,6 +56,9 @@ $(document).ready(function () {
 				comment: {
 					required: 'Пожалуйста, введите текст сообщения',
 					minlength: jQuery.validator.format('Введите минимум {0} символов!'),
+				},
+				policy: {
+					required: 'Пожалуйста, ознакомьтесь с политикой конфиденциальности',
 				},
 			},
 		});
