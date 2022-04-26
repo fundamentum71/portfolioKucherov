@@ -8,6 +8,9 @@
 		display: flex;
 	}
 	&__logo {
+		position: absolute;
+		top: 20px;
+		left: 20px;
 		display: block;
 		width: 70px;
 		height: 70px;

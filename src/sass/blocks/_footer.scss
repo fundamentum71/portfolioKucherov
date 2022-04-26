@@ -12,11 +12,27 @@
 		padding-top: 23px;
 		font-size: 18px;
 		color: var(--text-footer-color);
+		a {
+			color: var(--text-footer-color);
+		}
+		&:hover {
+			a {
+				text-decoration: underline;
+			}
+		}
 	}
 	&__email {
 		padding-top: 20px;
 		font-size: 18px;
 		color: var(--text-footer-color);
+		a {
+			color: var(--text-footer-color);
+		}
+		&:hover {
+			a {
+				text-decoration: underline;
+			}
+		}
 	}
 	&__social {
 		padding-top: 25px;
