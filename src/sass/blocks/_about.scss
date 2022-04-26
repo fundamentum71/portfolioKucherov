@@ -35,4 +35,14 @@
 	&__skills {
 		margin-right: 130px;
 	}
+	a {
+		color: var(--hard-main-color);
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.bold {
+	font-weight: bold;
 }

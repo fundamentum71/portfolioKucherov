@@ -169,6 +169,9 @@
 			width: 100%;
 		}
 	}
+	.about {
+		padding-top: 40px;
+	}
 	.about__text {
 		padding-top: 20px;
 		font-size: 18px;
@@ -240,8 +243,22 @@
 			font-size: 22px;
 		}
 	}
+	.pageup {
+		width: 35px;
+		right: 25px;
+		img {
+			width: 100%;
+		}
+	}
 }
 @media (max-width: 575px) {
+	.about__items {
+		display: block;
+		margin-top: 20px;
+	}
+	.about__contacts {
+		margin: 0 0 20px 0;
+	}
 	.square_ez-about {
 		width: 70px;
 		height: 70px;
@@ -348,4 +365,7 @@
 	//.message__button {
 	//	margin-top: 40px;
 	//}
+	#policy-error {
+		top: 70px;
+	}
 }
