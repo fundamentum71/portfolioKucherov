@@ -1,6 +1,7 @@
 .message {
 	background-color: var(--message-bg-color);
 	min-height: 580px;
+	padding-top: 80px;
 	padding-bottom: 50px;
 	&__container {
 		max-width: 1200px;
