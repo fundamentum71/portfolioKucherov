@@ -14,18 +14,18 @@ $mail->CharSet = 'utf-8';
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'it.kucherov@gmail.com';                 // Наш логин
-$mail->Password = 'womqtkhhewnoehta';                           // Наш пароль от ящика
+$mail->Username = 'kucherov.portfolio@gmail.com';                 // Наш логин
+$mail->Password = 'fyjgoauvbeowsfkn';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('it.kucherov@gmail.com', 'KucherovPortfolio');   // От кого письмо 
-$mail->addAddress('it.kucherov@gmail.com');     // Add a recipient
+$mail->setFrom('kucherov.portfolio@gmail.com', 'KucherovPortfolio');   // От кого письмо 
+$mail->addAddress('kucherov.portfolio@gmail.com');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
-$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+//$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
