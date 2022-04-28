@@ -24,6 +24,14 @@ closeLink.forEach((item) => {
 });
 
 $(document).ready(function () {
+	//!modalOverlay
+	$('.modal__close').on('click', function () {
+		$('.overlay, #thanks').fadeOut('fast');
+	});
+	$('.overlay').on('click', function () {
+		$('.overlay, #thanks').fadeOut('fast');
+	});
+
 	//!validation
 	function validationForms(form) {
 		$(form).validate({
@@ -140,7 +148,7 @@ $(document).ready(function () {
 		}).done(function () {
 			$(this).find('input').val('');
 			//$('#consultation, #order').fadeOut();
-			//$('.overlay, #thanks').fadeIn('slow');
+			$('.overlay, #thanks').fadeIn('slow');
 			$('form').trigger('reset');
 		});
 		return false;
