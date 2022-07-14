@@ -33,7 +33,8 @@
 		img {
 			display: block;
 			width: 100%;
-			object-fit: cover;
+			object-fit: contain;
+			border-radius: 0;
 		}
 	}
 	.about__main {
@@ -264,7 +265,11 @@
 		}
 	}
 	.about__photo {
-		margin-bottom: 0;
+		img {
+			object-fit: contain;
+			border-radius: 0;
+		}
+		margin-bottom: 50px;
 	}
 	.about__certificates {
 		.certificates-title {
