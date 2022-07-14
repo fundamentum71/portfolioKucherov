@@ -10,9 +10,9 @@
 
 		img {
 			width: 421px;
-			height: 463px;
+			height: 440px;
 			border-radius: 50px;
-			object-fit: cover;
+			object-fit: contain;
 		}
 	}
 	&__wrapper {
